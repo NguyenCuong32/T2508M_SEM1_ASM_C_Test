@@ -17,4 +17,6 @@ int main() {
 	printf("The element %d of the array is %d\n", i , a[i]);
 	i++;	
 	}while(i < 6);
+	return 0;
 	}
+
