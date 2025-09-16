@@ -20,7 +20,7 @@ int main()
     do
     {
        printf("The element %d of the array is %d\n",i+1,Array[i]);
-       i++:
+       i++;
     } while (i<6);
     
     return 0;
