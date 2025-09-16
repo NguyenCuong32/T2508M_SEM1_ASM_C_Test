@@ -45,7 +45,7 @@ int main()
 
     printf("Task 2.2\n");
     int max;
-    findMinMax(array, &max);
+    findMax(array, &max);
     printf("The largest value is: %d\n", max);
 
     return 0;
