@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void findMinMax (int array[], int *max)
+void findMax (int array[], int *max)
 {
     *max = array[0];
     for (int i = 0; i < 6; i++)
