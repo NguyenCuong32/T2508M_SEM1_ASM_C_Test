@@ -19,7 +19,7 @@ int main()
     printf("a. Using for loop\n");
     for (int i = 0; i < 6; i++)
     {
-        printf("The element %d of the array is %d\n", i, array[i]);
+        printf("The element %d of the array is %d\n", i + 1, array[i]);
     }
     printf("\n");
 
@@ -27,7 +27,7 @@ int main()
     int i = 0;
     while (i < 6)
     {
-        printf("The element %d of the array is %d\n", i, array[i]);
+        printf("The element %d of the array is %d\n", i + 1, array[i]);
         i++;
     }
     printf("\n");
@@ -37,7 +37,7 @@ int main()
     do 
     {
         
-        printf("The element %d of the array is %d\n", j, array[j]);
+        printf("The element %d of the array is %d\n", j + 1, array[j]);
         j++;
     }
     while (j < 6);

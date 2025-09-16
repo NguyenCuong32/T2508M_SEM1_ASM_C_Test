@@ -3,7 +3,8 @@
 float y(float x)
 {
     float g = 9.8;
-    float result = - 0.5 * g * x * x + x;
+    int v0 = 30;
+    float result = - 0.5 * g * x * x  + v0 * x;
     return result;
 }
 
