@@ -12,5 +12,7 @@ int main() {
 	}
 	if (y <= 50 && y >= 30) {
 		printf("The bullet got a goal");
+        
 	}
+    return 0;
 }
