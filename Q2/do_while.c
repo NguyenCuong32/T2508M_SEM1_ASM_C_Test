@@ -8,7 +8,6 @@ void display_array(int arr[], int length)
         printf("The element %d of array is %d\n", i, arr[i]);
         i++;
    } while (i<length);
-   
 }
 
 int main()
