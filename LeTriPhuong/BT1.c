@@ -17,8 +17,8 @@ int main()
     printf("The position of bullet: %.2lf\n", result);
 
     double val = y(x);
-    printf("y(%.2f) = %.2f\n",x,val);
-    if (val >50 || val <30)
+    printf("y(%.2f) = %.2f\n", x, val);
+    if (val > 50 || val < 30)
     {
         printf("The bullet got out\n");
     }
