@@ -10,6 +10,9 @@ float calculate_y(float x)
 int main()
 {
     float x = 5;
+    printf("Enter x variable: ");
+    scanf("%f", &x);
+
     float y = calculate_y(x);
     printf("The position of bullet y(%.2f) = %.2f\n", x, y);
 
