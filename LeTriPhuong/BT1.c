@@ -17,14 +17,14 @@ int main()
     printf("The position of bullet: %.2lf\n", result);
 
     double val = y(x);
-    printf("y(%.2lf) = %.2lf\n",x,val);
+    printf("y(%.2f) = %.2f\n",x,val);
     if (val >50 || val <30)
     {
-        printf("The bullet got out");
+        printf("The bullet got out\n");
     }
     else
     {
-        printf("The bullet got a goal");
+        printf("The bullet got a goal\n");
     }
 
     return 0;
