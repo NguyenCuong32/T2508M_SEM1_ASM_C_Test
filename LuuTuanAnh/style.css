@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(43, 124, 27);
+
+}
+div {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(117, 117, 117, 0.514);
+    border-radius: 8px;
+}
+#btnRegister{
+    height: auto;
+    width: 80px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    padding: 32px;
+    margin: 16px;
+}
+#btnFollow{
+    height: auro;
+    width: 80px;
+    color: red;
+    background-color:black;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.myButton:hover{
+    background-color:rgb(139, 138, 138);
+    color:white;
+    cursor: pointer;
+}
+input{
+    margin: 8px;
+    border-radius: 8px;
+    border-color:rgb(139, 138, 138);
+    border: 2px;
+
+}
